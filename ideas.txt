@@ -1,1 +1,2 @@
+* "$x" - will it compile if x is not defined?
 * Extending without "open" (with correct answer: will not compile)

@@ -1,0 +1,1 @@
+* Extending without "open" (with correct answer: will not compile)

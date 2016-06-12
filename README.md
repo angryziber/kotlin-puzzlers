@@ -6,7 +6,7 @@ I have started collecting Kotlin puzzlers here.
 What is a puzzler?
 ==================
  
-A puzzlers is some code that doesn't work the way it seems it should work.
+A puzzler is some code that doesn't work the way it seems it should work.
 
 An ideal programming language won't have any.
 

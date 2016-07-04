@@ -1,2 +1,4 @@
 * "$x" - will it compile if x is not defined?
 * Extending without "open" (with correct answer: will not compile)
+* Recursive getter:   var name: String? = null
+                        get() = if (name == id) title?.replace(" ", "") else name

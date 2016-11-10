@@ -2,3 +2,10 @@
 * Extending without "open" (with correct answer: will not compile)
 * Recursive getter:   var name: String? = null
                         get() = if (name == id) title?.replace(" ", "") else name
+
+
+* Kotlin List vs Java types
+* Kotlin + Mockito (when, final function)
+* Property annotations - where do they get?
+
+

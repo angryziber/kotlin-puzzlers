@@ -1,4 +1,4 @@
-package lambdas
+package puzzler9
 
 fun hello(block: () -> Unit) = block()
 

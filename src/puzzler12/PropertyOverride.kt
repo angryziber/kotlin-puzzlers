@@ -1,3 +1,5 @@
+package puzzler12
+
 open class Base {
   open var name: String? = null
     get() = field ?: "<unnamed>"
@@ -16,3 +18,9 @@ fun main(args: Array<String>) {
   person.name = "Anton"
   println(person.name)
 }
+
+// What will it print?
+// a) Anton
+// b) Mr Anton
+// c) <unnamed>
+// d) null

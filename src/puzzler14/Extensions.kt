@@ -1,14 +1,14 @@
 package puzzler14
 
-fun String.hello() = "x"
+fun String.hello() = "!$this"
 fun String.toString() = "$this!"
 
 fun main(args: Array<String>) {
-  print("y".hello())
+  print("x".hello())
 }
 
 // What will it print?
 // a) x
-// b) y
-// c) x!
-// d) y!
+// b) !x
+// c) !x!
+// d) Will not compile

@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
 }
 
 // What will it print?
-// a) puzzler10.ApplyThis
+// a) ApplyThis
 // b) blah
 // c) Nothing
 // d) None of the above

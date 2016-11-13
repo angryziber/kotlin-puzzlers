@@ -8,12 +8,10 @@ class D : C() {
   override fun sum(y: Int, x: Int): Int = super.sum(x, y)
 }
 
-fun main(args: Array<String>) {
-  val d: D = D()
-  val c: C = d
-  print(c.sum(x = 0))
-  print(d.sum(x = 0))
-}
+val d: D = D()
+val c: C = d
+print(c.sum(x = 0))
+print(d.sum(x = 0))
 
 // What will it print?
 // a) 22

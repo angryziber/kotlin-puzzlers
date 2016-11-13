@@ -14,10 +14,8 @@ class MyInt(val int: Int) {
 
 fun Int.my() = MyInt(this)
 
-fun main(args: Array<String>) {
-  val x = listOf(1.my(), 2.my(), 3.my())
-  println(x.filter { it >= 2 }.map { it + 1 })
-}
+val x = listOf(1.my(), 2.my(), 3.my())
+println(x.filter { it >= 2 }.map { it + 1 })
 
 // What will it print
 // a) 1<>2 2<>2 2+1 3<>2 3+1 [3, 4]

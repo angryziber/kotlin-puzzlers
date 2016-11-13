@@ -3,9 +3,7 @@ package puzzler14
 fun String.hello() = "!$this"
 fun String.toString() = "$this!"
 
-fun main(args: Array<String>) {
-  print("x".hello())
-}
+print("x".hello())
 
 // What will it print?
 // a) x

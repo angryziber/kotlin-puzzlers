@@ -5,9 +5,7 @@ class Person(name: String) {
     get() = if (name == "John") "Jaan" else name
 }
 
-fun main(args: Array<String>) {
-  println(Person("John").name)
-}
+println(Person("John").name)
 
 // What will it print?
 // a) John

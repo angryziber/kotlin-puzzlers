@@ -6,9 +6,7 @@ class InternalFromJava {
   internal fun hello() = "world"
 }
 
-fun main(args: Array<String>) {
-  println(InternalFromJava::hello.javaMethod?.name)
-}
+println(InternalFromJava::hello.javaMethod?.name)
 
 // What will it print?
 // a) hello

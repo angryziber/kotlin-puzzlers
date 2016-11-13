@@ -6,9 +6,7 @@ data class ApplyThis(var blah: String) {
   }
 }
 
-fun main(args: Array<String>) {
-  println(ApplyThis("blah").hello())
-}
+println(ApplyThis("blah").hello())
 
 // What will it print?
 // a) ApplyThis

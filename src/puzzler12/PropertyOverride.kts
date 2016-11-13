@@ -13,11 +13,9 @@ class Person: Base() {
     }
 }
 
-fun main(args: Array<String>) {
-  val person = Person()
-  person.name = "Anton"
-  println(person.name)
-}
+val person = Person()
+person.name = "Anton"
+println(person.name)
 
 // What will it print?
 // a) Anton

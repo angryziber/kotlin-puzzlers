@@ -15,9 +15,7 @@ class Lazy {
   }
 }
 
-fun main(args: Array<String>) {
-  Lazy().hello()
-}
+Lazy().hello()
 
 // What will it print?
 // a) 0

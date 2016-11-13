@@ -1,0 +1,10 @@
+package puzzler3
+
+val s: String? = null
+if (s?.isEmpty()) println("true")
+
+// What will it print?
+// a) Nothing
+// b) true
+// c) NullPointerException
+// d) Code does not compile

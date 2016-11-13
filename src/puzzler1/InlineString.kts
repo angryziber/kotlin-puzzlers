@@ -1,9 +1,7 @@
 package puzzler1
 
-fun main(args: Array<String>) {
-  val num = 123
-  println("The number is $num+1")
-}
+val num = 123
+println("The number is $num+1")
 
 // What will it print?
 // a) The number is $num+1

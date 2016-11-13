@@ -1,3 +1,5 @@
+package puzzler16
+
 class Lazy {
   var x = 0
   val y by lazy { 1/x }

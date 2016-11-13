@@ -12,6 +12,6 @@ fun main(args: Array<String>) {
 
 // What will it print?
 // a) ApplyThis
-// b) blah
-// c) Nothing
+// b) ApplyThis[blah=blah]
+// c) blah
 // d) None of the above

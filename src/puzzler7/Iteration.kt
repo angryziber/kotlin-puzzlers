@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
   println(x.filter { it >= 2 }.map { it + 1 })
 }
 
-// What wwill it print
+// What will it print
 // a) 1<>2 2<>2 2+1 3<>2 3+1 [3, 4]
 // b) 1<>2 2<>2 3<>2 2+1 3+1 [3, 4]
 // c) 1+1 2+1 3+1 1<>2 2<>2 3<>2 [3, 4]

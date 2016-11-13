@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 }
 
 // What will it print?
-// a) true; true; true
-// b) true; true; false
-// c) true; false; false
-// d) true; false; true
+// a) true; true; false
+// b) true; false; false
+// c) false; false; true
+// d) true; true; true

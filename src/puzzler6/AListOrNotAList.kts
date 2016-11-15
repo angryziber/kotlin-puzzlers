@@ -6,7 +6,7 @@ println(x is kotlin.collections.MutableList)
 println(x is java.util.List<*>)
 
 // What will it print?
-// a) true; true; false
+// a) true; false; true
 // b) true; false; false
 // c) false; false; true
 // d) true; true; true

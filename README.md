@@ -19,6 +19,10 @@ The puzzlers here are presented as *kts* files (Kotlin Scripts), which can skip 
 Contributing
 ============
 
-Eventually, this will become a conference talk or even several ones.
+As is common with puzzlers, please submit yours (either pull requests or issues) and I will credit you 
+during the next talk.
 
-As is common with puzzlers, please submit yours (either pull requests or issues) and I will credit you during the talk.
+Presentations
+=============
+
+* [http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/](Topconf Tallinn)

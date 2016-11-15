@@ -15,4 +15,4 @@ fun main3() = {
 // a) Hello
 // b) HelloHello
 // c) Nothing
-// d) Code does not compile
+// d) Will not compile

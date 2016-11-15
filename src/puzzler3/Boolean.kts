@@ -7,4 +7,4 @@ if (s?.isEmpty()) println("true")
 // a) Nothing
 // b) true
 // c) NullPointerException
-// d) Code does not compile
+// d) Will not compile

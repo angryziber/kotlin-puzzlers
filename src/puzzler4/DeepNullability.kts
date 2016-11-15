@@ -11,4 +11,4 @@ println(large?.medium?.small?.hello)
 // a) Hello
 // b) null
 // c) NullPointerException
-// d) Code does not compile
+// d) Will not compile

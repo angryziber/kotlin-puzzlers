@@ -12,4 +12,4 @@ println(ApplyThis("bar").hello())
 // a) ApplyThis
 // b) ApplyThis(foo=bar)
 // c) bar
-// d) None of the above
+// d) Will not compile

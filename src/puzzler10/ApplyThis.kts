@@ -1,15 +1,15 @@
 package puzzler10
 
-data class ApplyThis(var blah: String) {
-  fun hello() = blah.apply {
+data class ApplyThis(var foo: String) {
+  fun hello() = foo.apply {
     return this
   }
 }
 
-println(ApplyThis("blah").hello())
+println(ApplyThis("bar").hello())
 
 // What will it print?
 // a) ApplyThis
-// b) ApplyThis[blah=blah]
-// c) blah
+// b) ApplyThis(foo=bar)
+// c) bar
 // d) None of the above

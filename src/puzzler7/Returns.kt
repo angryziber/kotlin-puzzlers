@@ -1,4 +1,4 @@
-package puzzler9
+package puzzler7
 
 fun main(args: Array<String>) {
   listOf(1, 2, 3).forEach {

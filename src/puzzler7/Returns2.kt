@@ -1,4 +1,4 @@
-package puzzler9
+package puzzler7
 
 fun hello(block: () -> Unit) = block()
 

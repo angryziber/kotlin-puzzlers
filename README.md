@@ -25,4 +25,4 @@ during the next talk.
 Presentations
 =============
 
-* [http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/](Topconf Tallinn)
+* [Topconf Tallinn](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/)

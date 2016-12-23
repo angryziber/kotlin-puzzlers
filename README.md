@@ -25,4 +25,6 @@ during the next talk.
 Presentations
 =============
 
-* [Topconf Tallinn](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/)
+* [Topconf Tallinn 2016](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/)
+* Mobius 2017? in St Petersburg
+* [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/)

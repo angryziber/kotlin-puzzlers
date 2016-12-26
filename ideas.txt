@@ -2,5 +2,4 @@
 * Extending without "open" (with correct answer: will not compile)
 * Kotlin + Mockito (when, final function)
 * Property annotations - where do they get?
-
-
+* file.listFiles().filter { it.endsWith(".xml") } not same as it.name.endsWith(".xml")

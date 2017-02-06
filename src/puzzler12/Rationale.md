@@ -1,4 +1,4 @@
-Correct answer: **c)** `<unnamed>`
+Correct answer: **c) `<unnamed>`**
 
 Overriding of properties is a weak point of current Kotlin syntax.
 

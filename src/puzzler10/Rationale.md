@@ -1,4 +1,4 @@
-Correct answer: **c)** bar
+Correct answer: **c) bar**
 
 * `this` can be sneaky in extension functions
 * `return` from a lambda (if allowed) affects the outer function

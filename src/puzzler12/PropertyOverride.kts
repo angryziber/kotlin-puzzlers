@@ -8,9 +8,7 @@ open class Base {
 class Person: Base() {
   override var name: String? = null
     get() = super.name
-    set(value) {
-      field = "Mr $value"
-    }
+    set(value) { field = "Mr $value" }
 }
 
 val person = Person()

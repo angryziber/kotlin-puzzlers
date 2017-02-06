@@ -1,3 +1,5 @@
+package puzzler18
+
 val map = mapOf<Any, Any>().withDefault{ "default" }
 println(map["1"])
 

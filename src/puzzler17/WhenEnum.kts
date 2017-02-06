@@ -1,4 +1,4 @@
-package puzzler_enum
+package puzzler17
 
 enum class E { e }
 

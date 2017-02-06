@@ -1,10 +1,10 @@
 package puzzler1
 
-val eq = "$eq"
-println("""$eq""")
+val v = "\$v"
+println("""$v""")
 
 // What will it print?
-// a) "$eq"
-// b) $eq
-// c) eq
+// a) "$v"
+// b) $v
+// c) v
 // d) will not compile

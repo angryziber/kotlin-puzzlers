@@ -11,8 +11,6 @@ print(a)
 
 // What will it print?
 // a) 1
-// b) Will not compile
-// c) null
-// d) NullPointerException
-
-// Puzzler by @a-dminator
+// b) null
+// c) NullPointerException
+// d) will not compile

@@ -26,5 +26,5 @@ Presentations
 =============
 
 * [Topconf Tallinn 2016](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/) [(slides)](https://docs.google.com/presentation/d/1eSl70ID_yLsq-MdRfPoubV2LU-KZpqlQf-5nskbXsQs/)
-* Mobius 2017? in St Petersburg
 * [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/)
+* Mobius 2017 in St Petersburg

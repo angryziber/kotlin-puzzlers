@@ -1,4 +1,4 @@
-package puzzler5
+package functions.whatAmI
 
 val whatAmI = {}()
 println(whatAmI)

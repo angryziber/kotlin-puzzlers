@@ -1,4 +1,4 @@
-package puzzler5
+package functions.kotlinVsScala
 
 fun main1() = print("Hello")
 

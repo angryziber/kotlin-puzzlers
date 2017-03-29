@@ -1,4 +1,4 @@
-package puzzler10
+package functions.iAmThis
 
 data class IAm(var foo: String) {
   fun hello() = foo.apply {

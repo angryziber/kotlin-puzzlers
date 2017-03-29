@@ -1,4 +1,4 @@
-package puzzler8
+package interop.securityViaObscurity
 
 import kotlin.reflect.jvm.javaMethod
 

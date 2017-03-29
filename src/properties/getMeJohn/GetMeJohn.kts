@@ -1,4 +1,4 @@
-package puzzler11
+package properties.getMeJohn
 
 class Person(name: String) {
   var name = name

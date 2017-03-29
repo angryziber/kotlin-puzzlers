@@ -1,4 +1,4 @@
-package puzzler7
+package functions.sneakyReturn
 
 fun hello(block: () -> Unit) = block()
 

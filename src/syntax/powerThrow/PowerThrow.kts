@@ -1,4 +1,4 @@
-package puzzler7
+package syntax.powerThrow
 
 throw throw throw Exception()
 

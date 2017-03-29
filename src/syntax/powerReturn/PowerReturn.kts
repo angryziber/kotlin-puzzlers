@@ -1,4 +1,4 @@
-package puzzler7
+package syntax.powerReturn
 
 fun hello(): String {
   return return return "Hello"

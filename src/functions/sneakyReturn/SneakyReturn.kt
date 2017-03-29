@@ -1,4 +1,4 @@
-package puzzler7
+package functions.sneakyReturn
 
 fun main(args: Array<String>) {
   listOf(1, 2, 3).forEach {

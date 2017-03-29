@@ -1,4 +1,4 @@
-package puzzler1
+package syntax.strings
 
 val v = "\$v"
 println("""$v""")

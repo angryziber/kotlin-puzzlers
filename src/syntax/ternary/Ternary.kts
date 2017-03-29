@@ -1,4 +1,4 @@
-package puzzler2
+package syntax.ternary
 
 val x: String? = "foo"
 print(x == "foo" ? "is foo" : "not a foo")

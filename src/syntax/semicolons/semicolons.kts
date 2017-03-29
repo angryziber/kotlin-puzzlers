@@ -1,3 +1,5 @@
+package syntax.semicolons
+
 import java.util.*
 
 fun main(args: Array<String>) {

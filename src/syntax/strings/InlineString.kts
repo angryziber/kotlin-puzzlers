@@ -1,4 +1,4 @@
-package puzzler1
+package syntax.strings
 
 val num = 123
 println("The number is $num+1")

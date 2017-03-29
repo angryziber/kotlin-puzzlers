@@ -1,4 +1,4 @@
-package puzzler6
+package interop.aListIsNotAList
 
 val x = listOf(1, 2, 3)
 println(x is kotlin.collections.List<Int>)

@@ -1,4 +1,4 @@
-package puzzler3
+package nullability.nullean
 
 val s: String? = null
 if (s?.isEmpty()) println("true")

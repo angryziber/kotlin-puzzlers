@@ -1,4 +1,4 @@
-package puzzler12
+package properties.override
 
 open class Base {
   open var name: String? = null

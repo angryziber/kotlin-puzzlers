@@ -1,13 +1,13 @@
 package puzzler19
 
 fun printNumberSign(num: Int) {
-    if (num < 0) {
-         "negative"
-    } else if (num > 0) {
-         "positive"
-    } else {
-         "zero"
-    }.let { print(it) }
+  if (num < 0) {
+    "negative"
+  } else if (num > 0) {
+    "positive"
+  } else {
+    "zero"
+  }.let { print(it) }
 }
 
 printNumberSign(-2)

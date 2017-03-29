@@ -9,9 +9,7 @@ fun main(args: Array<String>) {
 
 
 // Kotlin's FAQ: Are semicolons required?
-a) Semicolons are required
-b) Semicolons are required
-   and then compile error
-c) Semicolons are required
-   Semicolons are optional
-d) Compile error
+// a) Semicolons are required
+// b) Semicolons are required and then compile error
+// c) Semicolons are required. Semicolons are optional
+// d) Compile error

@@ -1,4 +1,4 @@
-package puzzler17
+package bugs.exhaustiveEnum
 
 enum class E { e }
 

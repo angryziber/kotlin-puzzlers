@@ -1,4 +1,4 @@
-package puzzler9
+package collections.eagerOrLazy
 
 fun main(args: Array<String>) {
   val x = listOf(1, 2, 3).filter { print("$it "); it >= 2 }

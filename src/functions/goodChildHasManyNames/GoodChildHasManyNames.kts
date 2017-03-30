@@ -1,4 +1,4 @@
-package puzzler15
+package functions.goodChildHasManyNames
 
 open class C {
   open fun sum(x: Int = 1, y: Int = 2): Int = x + y

@@ -1,4 +1,4 @@
-package puzzler16
+package delegates.lazy
 
 class Lazy {
   var x = 0

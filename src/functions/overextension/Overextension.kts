@@ -1,9 +1,9 @@
-package puzzler14
+package functions.overextension
 
 fun String.hello() = "!$this"
 fun String.toString() = "$this!"
 
-print("x".hello())
+println("x".hello())
 
 // What will it print?
 // a) x

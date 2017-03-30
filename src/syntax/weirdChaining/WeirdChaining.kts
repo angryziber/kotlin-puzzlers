@@ -1,4 +1,4 @@
-package puzzler19
+package syntax.weirdChaining
 
 fun printNumberSign(num: Int) {
   if (num < 0) {

@@ -1,4 +1,4 @@
-package nullability.nulleanExtended
+package p2_nulleanExtended
 
 val x: String? = null
 print(x.isNullOrEmpty())

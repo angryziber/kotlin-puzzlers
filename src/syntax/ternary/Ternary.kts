@@ -1,4 +1,4 @@
-package syntax.ternary
+package p0_ternary
 
 val x: String? = "foo"
 print(x == "foo" ? "is foo" : "not a foo")

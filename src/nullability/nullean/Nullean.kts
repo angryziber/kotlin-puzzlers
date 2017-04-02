@@ -1,4 +1,4 @@
-package nullability.nullean
+package p1_nullean
 
 val s: String? = null
 if (s?.isEmpty()) println("true")

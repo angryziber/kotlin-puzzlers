@@ -1,4 +1,4 @@
-package functions.sneakyReturn
+package p5_sneakyReturn
 
 fun main(args: Array<String>) {
   listOf(1, 2, 3).forEach {

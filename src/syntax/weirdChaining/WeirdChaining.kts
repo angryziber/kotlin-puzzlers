@@ -1,4 +1,4 @@
-package syntax.weirdChaining
+package p9_weirdChaining
 
 fun printNumberSign(num: Int) {
   if (num < 0) {

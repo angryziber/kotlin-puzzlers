@@ -1,4 +1,4 @@
-package interop.platformNulls;
+package p3_platformNulls;
 
 class FromJava {
   public static void main(String[] args) {

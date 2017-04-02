@@ -1,4 +1,4 @@
-package properties.getMeJohn
+package p6_getMeJohn
 
 class Person(name: String) {
   var name = name

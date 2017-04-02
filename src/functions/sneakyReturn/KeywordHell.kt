@@ -1,4 +1,4 @@
-package functions.sneakyReturn
+package p5_sneakyReturn
 
 fun hello(block: () -> Unit) = block()
 

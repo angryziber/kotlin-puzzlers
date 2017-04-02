@@ -1,4 +1,4 @@
-package interop.platformNulls
+package p3_platformNulls
 
 class Kotlin {
   fun hello(name: String) = print("Hello $name")

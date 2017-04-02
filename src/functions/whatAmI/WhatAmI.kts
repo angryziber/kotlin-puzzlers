@@ -1,4 +1,4 @@
-package functions.whatAmI
+package p7_whatAmI
 
 val whatAmI = {}()
 println(whatAmI)

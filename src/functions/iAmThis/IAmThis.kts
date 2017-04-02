@@ -1,4 +1,4 @@
-package functions.iAmThis
+package p8_iAmThis
 
 data class IAm(var foo: String) {
   fun hello() = foo.apply {

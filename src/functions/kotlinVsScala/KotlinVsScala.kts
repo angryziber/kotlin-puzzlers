@@ -1,4 +1,4 @@
-package functions.kotlinVsScala
+package p4_kotlinVsScala
 
 fun main1() = print("Hello")
 

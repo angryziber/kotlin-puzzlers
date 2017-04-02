@@ -4,7 +4,7 @@ fun hello(): String {
   return return return "Hello"
 }
 
-print(hello())
+println(hello())
 
 // What will it print?
 // a) Hello

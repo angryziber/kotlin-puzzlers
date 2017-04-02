@@ -15,7 +15,7 @@ fi
 DIR=`dirname $FILE`
 
 if [[ $FILE == *.kts ]]; then
-  java -cp $IDEA/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-reflect.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-script-runtime.jar org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -script $FILE 2>/dev/null
+  java -cp $IDEA/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-reflect.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-script-runtime.jar org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -script $FILE
 else
   java -cp out/production/kotlin-puzzlers:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-reflect.jar $CLASS
 fi

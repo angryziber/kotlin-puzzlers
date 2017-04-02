@@ -26,7 +26,7 @@ Presentations
 =============
 
 * [Topconf Tallinn 2016](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/) [(slides)](https://docs.google.com/presentation/d/1eSl70ID_yLsq-MdRfPoubV2LU-KZpqlQf-5nskbXsQs/)
-* [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/)
+* [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/) in Moscow
 * [Mobius 2017](https://mobiusconf.com/en/talks/kotlin-puzzlers/) in St Petersburg
 
 Posts

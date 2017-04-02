@@ -9,3 +9,5 @@ Correct answer: **d) ,zero,positive**
   the function will return immediately
 * To avoid this situation, you can wrap the entire `if ... else ...` in parens,
   and then chain `.let` on it
+
+Puzzler by Kevin Most @kevinmost

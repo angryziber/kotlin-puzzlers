@@ -20,4 +20,5 @@ else
   java -cp out/production/kotlin-puzzlers:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-runtime.jar:$IDEA/plugins/Kotlin/kotlinc/lib/kotlin-reflect.jar $CLASS
 fi
 
+sleep 1
 mpv --quiet --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.mp4 2>/dev/null >/dev/null

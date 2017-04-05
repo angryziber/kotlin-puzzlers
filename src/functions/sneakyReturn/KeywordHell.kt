@@ -14,11 +14,6 @@ fun main(args: Array<String>) {
     // return - impossible
   }
 
-  hello({
-    println("hello")
-    // return - impossible
-  })
-
   hello(fun() {
     println("hello")
     return

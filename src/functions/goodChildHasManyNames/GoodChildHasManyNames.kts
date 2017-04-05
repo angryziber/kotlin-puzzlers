@@ -12,6 +12,7 @@ val d: D = D()
 val c: C = d
 print(c.sum(x = 0))
 print(d.sum(x = 0))
+println()
 
 // What will it print?
 // a) 22

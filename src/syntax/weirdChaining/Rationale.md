@@ -1,4 +1,4 @@
-Correct answer: **d) ,zero,positive**
+Correct answer: **d) zero; positive**
 
 * Remember that the `else if` construct is really just calling `else` with
   a "single-line" `if`, which is the rest of your expression

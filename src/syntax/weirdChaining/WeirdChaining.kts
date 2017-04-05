@@ -7,17 +7,15 @@ fun printNumberSign(num: Int) {
     "positive"
   } else {
     "zero"
-  }.let { print(it) }
+  }.let { println(it) }
 }
 
 printNumberSign(-2)
-print(",")
 printNumberSign(0)
-print(",")
 printNumberSign(2)
 
 // What will it print?
-// a) negative,zero,positive
-// b) negative,zero,
-// c) negative,,positive
-// d) ,zero,positive
+// a) negative; zero; positive
+// b) negative; zero
+// c) negative; positive
+// d) zero; positive

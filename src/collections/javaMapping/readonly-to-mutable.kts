@@ -1,11 +1,11 @@
 package collections.javaMapping
 
-val list = listOf(1, 2, 3)
+val readonly = listOf(1, 2, 3)
 
-if(list is MutableList)
-    list.add(4)
+if(readonly is MutableList)
+    readonly.add(4)
 
-println(list)
+println(readonly)
 
 // What will it print?
 // a) [1, 2, 3]

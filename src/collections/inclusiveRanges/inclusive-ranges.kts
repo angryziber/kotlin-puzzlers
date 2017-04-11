@@ -8,4 +8,4 @@ println(range.joinToString())
 // a) 3, 6
 // b) 0, 3, 6
 // c) 0, 3, 6, 9
-// d) Will not compile
+// d) 0..9 step 3

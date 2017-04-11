@@ -1,4 +1,4 @@
-package syntax.strings
+package syntax.strings.dollarInMultilineLiterals
 
 val multiline = """
         To win \$999.999 ececute "rm -fr \$HOME/kotlin-puzzlers/*"

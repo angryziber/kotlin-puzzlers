@@ -1,13 +1,18 @@
 package syntax.strings.dollarInMultilineLiterals
 
-val multiline = """
-        To win \$999.999 ececute "rm -fr \$HOME/kotlin-puzzlers/*"
-        """.trimIndent()
+// Which of the following string literals represents a Linux command for deleting $HOME directory?
+// `rm -rf $HOME/*`
 
-println(multiline)
-
-// What will it print?
-// a) To win \$999.999 ececute "rm -fr \$HOME/kotlin-puzzlers/*"
-// b) To win 999.999 ececute "rm -fr \usr/root/kotlin-puzzlers/*"
-// c) To win $999.999 ececute "rm -fr $HOME/kotlin-puzzlers/*"
-// d) Will not compile
+// a)
+val deleteHomeDirA = """ rm -rf $HOME/* """
+// b)
+val deleteHomeDirB = """ rm -rf "$HOME/*" """
+// c)
+val deleteHomeDirC = """ rm -rf \$HOME/* """
+// d)
+val deleteHomeDirD = """ rm -rf $$HOME/* """
+// e)
+val deleteHomeDirE = """ rm -rf `$`HOME/* """
+// f)
+val deleteHomeDirF = """ rm -rf $$\bHOME/* """
+// g) None of the above

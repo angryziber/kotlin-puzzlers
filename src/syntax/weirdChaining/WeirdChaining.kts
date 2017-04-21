@@ -19,3 +19,5 @@ printNumberSign(2)
 // b) negative; zero
 // c) negative; positive
 // d) zero; positive
+
+// by Kevin Most @kevinmost

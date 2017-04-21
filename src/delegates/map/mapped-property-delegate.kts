@@ -24,3 +24,5 @@ with(population) {
 // b) 407947; 43005; 5281579
 // c) NullPointerException
 // d) NoSuchElementException
+
+// by Daniil Vodopian @voddan

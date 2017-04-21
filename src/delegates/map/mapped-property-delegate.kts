@@ -8,12 +8,9 @@ class Population(var cities: Map<String, Int>) {
 }
 
 val population = Population(mapOf(
-    "st_petersburg" to 5_281_579,
-    "tallinn" to 407_947,
-    "kronstadt" to 43_005
-))
+    "st_petersburg" to 5_281_579, "tallinn" to 407_947, "kronstadt" to 43_005))
 
-/* Many years have passed, now all humans live on Mars */
+// Many years have passed, now all humans live on Mars
 population.cities = emptyMap()
 
 with(population) {

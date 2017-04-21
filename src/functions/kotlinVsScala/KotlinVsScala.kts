@@ -11,6 +11,6 @@ main2()
 
 // What will it print?
 // a) Hello
-// b) HelloHello2
-// c) Nothing
+// b) Hello2
+// c) HelloHello2
 // d) Will not compile

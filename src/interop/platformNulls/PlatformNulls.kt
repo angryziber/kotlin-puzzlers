@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
 // What will it print?
 // a) Hello
 // b) Hello null
-// c) NullPointerException
-// d) IllegalStateException
+// c) Will not compile
+// d) None of the above

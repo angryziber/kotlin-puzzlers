@@ -1,4 +1,4 @@
-Correct answer: **d) IllegalStateException**
+Correct answer: **d) None of the above (IllegalStateException)**
 
 * Kotlin cannot guarantee null-safety on in-out with Java
 * For convenience, return types from Java are neither nullable nor not null

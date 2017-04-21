@@ -1,4 +1,5 @@
 package p9_weirdChaining
+// by Kevin Most @kevinmost
 
 fun printNumberSign(num: Int) {
   if (num < 0) {
@@ -19,5 +20,3 @@ printNumberSign(2)
 // b) negative; zero
 // c) negative; positive
 // d) zero; positive
-
-// by Kevin Most @kevinmost

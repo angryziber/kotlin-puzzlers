@@ -1,4 +1,5 @@
 package p10_mappedDelegates
+// by Daniil Vodopian @voddan
 
 class Population(var cities: Map<String, Int>) {
     val tallinn by cities
@@ -24,5 +25,3 @@ with(population) {
 // b) 407947; 43005; 5281579
 // c) NullPointerException
 // d) NoSuchElementException
-
-// by Daniil Vodopian @voddan

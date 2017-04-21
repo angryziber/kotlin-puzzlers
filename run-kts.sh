@@ -22,4 +22,4 @@ else
 fi
 
 sleep 1
-mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.mp4 2>/dev/null >/dev/null
+mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.* 2>/dev/null >/dev/null

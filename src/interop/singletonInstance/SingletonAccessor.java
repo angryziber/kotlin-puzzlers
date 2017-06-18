@@ -12,4 +12,4 @@ public class SingletonAccessor {
 // a) Will not compile
 // b) Hello world!
 // c) interop.singletonInstance.Singleton@4b67cf4d
-// d) none of the above
+// d) Undefined behavior

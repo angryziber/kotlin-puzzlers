@@ -29,6 +29,7 @@ Presentations
 * [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/) in Moscow [(video)](https://youtu.be/h4eIuz-CwYc?t=8h26m14s) 
 * [Mobius 2017](https://mobiusconf.com/en/talks/kotlin-puzzlers/) in St Petersburg
 * [JEEConf 2017](http://jeeconf.com/program/kotlin-puzzlers/) in Kyiv
+* [KotlinConf](https://kotlinconf.com/speakers/) in San Francisco
 
 Posts
 =====

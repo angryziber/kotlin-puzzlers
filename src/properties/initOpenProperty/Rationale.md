@@ -1,4 +1,4 @@
-Correct answer: ** d) Will not compile **
+Correct answer: **d) Will not compile**
 
 This effect shows only for `open var` in classes.
 

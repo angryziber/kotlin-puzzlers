@@ -1,4 +1,4 @@
-package functions.unitOfNothing
+package types.unitOfNothing
 
 fun oops() {
   return throw throw return

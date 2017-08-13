@@ -1,4 +1,4 @@
-package functions.whatAmI
+package types.whatAmI
 
 val whatAmI = {}()
 println(whatAmI)

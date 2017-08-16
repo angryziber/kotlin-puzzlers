@@ -1,3 +1,5 @@
+package functions.twoLambdas
+
 private fun foo(one: (String) -> Unit = {}, two: (String) -> Unit = {}) {
   one("one")
   two("two")

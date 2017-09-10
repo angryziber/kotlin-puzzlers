@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/plugins/Kotlin/lib/kotlinx-coroutines-core.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/plugins/Kotlin/lib/kotlinx-coroutines-jdk8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

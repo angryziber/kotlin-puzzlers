@@ -1,6 +1,3 @@
-* "$x" - will it compile if x is not defined?
-* Extending without "open" (with correct answer: will not compile)
-* Kotlin + Mockito (when, final function)
 * Property annotations - where do they get?
 * file.listFiles().filter { it.endsWith(".xml") } not same as it.name.endsWith(".xml")
 * !it.geoTagged.apply { if (this) print("true") } vs (!it.geoTagged).apply { if (this) print("true") }

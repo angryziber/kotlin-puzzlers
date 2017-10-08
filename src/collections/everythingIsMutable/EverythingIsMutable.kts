@@ -1,9 +1,9 @@
-package collections.javaMapping
+package collections.everythingIsMutable
 
 val readonly = listOf(1, 2, 3)
 
-if(readonly is MutableList)
-    readonly.add(4)
+if (readonly is MutableList)
+  readonly.add(4)
 
 println(readonly)
 

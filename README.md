@@ -34,4 +34,5 @@ Presentations
 Posts
 =====
 
-* [Interview by JUG.ru](https://habrahabr.ru/company/jugru/blog/323562/) with Andrey Breslav and Anton Keks in Russian 
+* [Interview by JUG.ru](https://habrahabr.ru/company/jugru/blog/323562/) with Andrey Breslav and Anton Keks in Russian
+* [Transcription of the talk from Mobius 2017](https://habrahabr.ru/company/jugru/blog/338924/) in Russian 

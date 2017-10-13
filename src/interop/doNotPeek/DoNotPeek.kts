@@ -1,3 +1,5 @@
+// by Adam Arold @addamsson
+
 import java.util.*
 
 val queue: Queue<String> = LinkedList()
@@ -8,5 +10,3 @@ println(queue.peek().toInt())
 // b) NullPointerException
 // c) will not compile
 // d) none of the above
-
-// By Adam Arold @addamsson

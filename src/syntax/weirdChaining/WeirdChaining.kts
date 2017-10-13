@@ -1,4 +1,5 @@
 package syntax.weirdChaining
+// by Kevin Most @kevinmost
 
 fun printNumberSign(num: Int) {
   if (num < 0) {

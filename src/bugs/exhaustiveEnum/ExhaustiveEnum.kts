@@ -1,4 +1,5 @@
 package bugs.exhaustiveEnum
+// by @a-dminator
 
 enum class E { e }
 

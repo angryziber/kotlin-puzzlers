@@ -1,4 +1,5 @@
 package delegates.map
+// by Daniil Vodopian @voddan
 
 class Population(var cities: Map<String, Int>) {
     val `san francisco` by cities

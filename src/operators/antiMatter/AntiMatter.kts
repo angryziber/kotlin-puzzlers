@@ -1,3 +1,5 @@
+// suggested by @guai
+
 operator fun Nothing?.not() = Unit
 operator fun Unit.not() = null
 

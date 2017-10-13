@@ -1,4 +1,4 @@
-package data
+// inspired by Adam Arold @addamsson
 
 data class Container(val list: MutableList<String>)
 
@@ -13,5 +13,3 @@ println(c2.list.joinToString())
 // b) one, two, oops
 // c) UnsupportedOperationException
 // c) will not compile
-
-// Inspired by Adam Arold @addamsson

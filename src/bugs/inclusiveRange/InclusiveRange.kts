@@ -1,4 +1,5 @@
 package bugs.inclusiveRange
+// inspired by AndroidPub
 
 val i = 10.5
 

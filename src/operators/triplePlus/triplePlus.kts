@@ -1,3 +1,5 @@
+// inspired by zhangdatou
+
 infix operator fun Int.plus(i: Int) = this + i + 1
 
 println(-1 + 2)

@@ -1,4 +1,5 @@
 package types.extendedEnum
+// by Dmitry Kandalov @dkandalov
 
 enum class Color {
   Red, Green, Blue

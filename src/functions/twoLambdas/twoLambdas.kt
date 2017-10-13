@@ -1,4 +1,5 @@
 package functions.twoLambdas
+// by @a-dminator
 
 private fun foo(one: (String) -> Unit = {}, two: (String) -> Unit = {}) {
   one("one")

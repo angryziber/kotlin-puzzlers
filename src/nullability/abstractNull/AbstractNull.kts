@@ -1,4 +1,5 @@
 package nullability.abstractNull
+// by Daniil Vodopian @voddan
 
 abstract class NullSafeLang {
   abstract val name: String

@@ -1,4 +1,5 @@
 package syntax.exhaustiveWhen
+// by Dmitry Kandalov @dkandalov
 
 sealed class X
 class A : X()

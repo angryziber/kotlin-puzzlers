@@ -5,5 +5,3 @@ Correct answer: ***c) onetwo***
     * This is great for DSLs
     * But can be confusing when combined with default parameters
 * Do not take many lambdas as arguments, and avoid default values if you still do it
-
-Puzzler by @a-dminator

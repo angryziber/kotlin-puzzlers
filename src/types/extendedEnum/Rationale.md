@@ -10,5 +10,3 @@ Correct answer: ***d) will not compile***
 
     fun Color.Companion.from(...)
 ```
-
-Puzzler by Dmitry Kandalov @dkandalov

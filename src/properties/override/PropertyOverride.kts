@@ -1,11 +1,11 @@
 package properties.override
 
-open class Base {
+open class Named {
   open var name: String? = null
     get() = field ?: "<unnamed>"
 }
 
-class Person: Base() {
+class Person: Named() {
   override var name: String? = null
     get() = super.name
     set(value) { field = "Mr $value" }

@@ -1,4 +1,5 @@
 package types.verySmartCast
+// inspired by Dmitry Kandalov @dkandalov
 
 fun main(args: Array<String>) {
   val x: Any = "123"

@@ -1,4 +1,5 @@
 package nullability.theOrder
+// inspired by Adam Arold @addamsson
 
 class Order {
   private val c: String
@@ -18,5 +19,3 @@ Order()
 // b) null
 // c) will not compile
 // d) none of the above
-
-// Inspired by Adam Arold @addamsson

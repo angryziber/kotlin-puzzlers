@@ -2,7 +2,7 @@ package types.verySmartCast
 
 fun main(args: Array<String>) {
   val x: Any = "123"
-  val z = if (x is Int && x is String) x.length + x.inc() else 123
+  val z = if (x is String && x is Int) x.inc() + x.length else 123
   println(z)
 }
 

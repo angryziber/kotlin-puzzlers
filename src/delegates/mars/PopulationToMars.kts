@@ -7,9 +7,12 @@ class Population(var cities: Map<String, Int>) {
     val `tallinn` by cities
 }
 
-val population = Population(mapOf("san francisco" to 864_816, "st petersburg" to 5_281_579 , "tallinn" to 413_782))
+val population = Population(mapOf(
+    "san francisco" to 864_816,
+    "st petersburg" to 5_281_579 ,
+    "tallinn" to 413_782))
 
-/* Many years have passed, now all humans live on Mars */
+// Many years have passed, now all humans live on Mars
 population.cities = emptyMap()
 
 with(population) {

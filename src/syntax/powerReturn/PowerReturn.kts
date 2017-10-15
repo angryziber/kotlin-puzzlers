@@ -1,13 +1,14 @@
 package syntax.powerReturn
 
 fun hello(): String {
-  return return return "Hello"
+  val result = return throw return "Hello"
+  println(result.toString())
 }
 
 println(hello())
 
 // What will it print?
 // a) Hello
-// b) Hello Hello Hello
-// c) nothing
-// d) will not compile
+// b) Hello Hello
+// c) will not compile
+// d) none of the above

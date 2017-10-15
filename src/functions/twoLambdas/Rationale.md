@@ -1,4 +1,4 @@
-Correct answer: ***c) onetwo***
+Correct answer: ***d) none of the above (twoone)***
 
 * Lambda in parentheses is applied as the first argument
 * Lambda without parentheses is defined to be applied as the last argument 

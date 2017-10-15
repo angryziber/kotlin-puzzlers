@@ -1,4 +1,4 @@
-package delegates.map
+package delegates.mars
 // by Daniil Vodopian @voddan
 
 class Population(var cities: Map<String, Int>) {

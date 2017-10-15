@@ -1,7 +1,9 @@
 package functions.twoLambdas
 // by @a-dminator
 
-private fun foo(one: (String) -> Unit = {}, two: (String) -> Unit = {}) {
+typealias L = (String) -> Unit
+
+private fun foo(one: L = {}, two: L = {}) {
   one("one")
   two("two")
 }

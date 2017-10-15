@@ -1,4 +1,5 @@
 package nullability.oneChildPolicy
+// inspired by Roman Dawydkin @beholder
 
 open class Node(val name: String) {
   fun lookup() = println(name)
@@ -18,5 +19,3 @@ Parent()
 // b) child1; parent
 // c) parent; child2
 // d) none of the above
-
-// Inspired by Roman Dawydkin @beholder

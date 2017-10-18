@@ -6,5 +6,5 @@ print(x == "foo" ? "is foo" : "not a foo")
 // What will it print?
 // a) is foo
 // b) not a foo
-// c) Will not compile
+// c) will not compile
 // d) TypeCastException

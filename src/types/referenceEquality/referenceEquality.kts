@@ -1,3 +1,5 @@
+// by Hiroshi Kurokawa @hkurokawa
+
 println(127 as Int? === 127 as Int?)
 println(128 as Int? === 128 as Int?)
 

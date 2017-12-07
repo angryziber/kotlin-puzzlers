@@ -1,4 +1,4 @@
-package types.cyclicObjectConstructions
+// by Hiroshi Kurokawa @hkurokawa
 
 open class A(val x: Any?)
 
@@ -10,6 +10,6 @@ println(C.x)
 
 // What will it print?
 // a) null; null
-// b) C@2f92e0f4; null
-// c) NullPointerException
+// b) C@1544bf85; null
+// c) ExceptionInInitializerError
 // d) will not compile

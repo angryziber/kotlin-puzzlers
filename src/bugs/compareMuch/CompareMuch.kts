@@ -1,4 +1,5 @@
 package bugs.compareMuch
+// by @DeveloperHacker
 
 import java.util.Random
 

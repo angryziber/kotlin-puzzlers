@@ -12,5 +12,5 @@ println(isItSupposedToBeFun(true))
 // What will it print?
 // a) yep. It's fun
 // b) yep. It's fun and warning: unreachable code
-// c) yep. It's funnope. Nothing spacial
+// c) yep. It's funnope. Nothing special
 // d) Compilation error: unreachable code

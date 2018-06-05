@@ -11,7 +11,7 @@ val sum = x?:0 + y
 println(sum) // prints 2
 ```
 
-However, if `x` is `null` it will actually coalesce to `0 + y` which is the entire expression to the right of the Elvis operator.
+If `x` is `null` it will actually coalesce to `0 + y` which is the entire expression to the right of the Elvis operator.
 
 Conversely if `x` has a value, the value of the expression `x?:0 + y` will be `x`.
 

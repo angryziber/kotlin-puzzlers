@@ -3,26 +3,23 @@ package nullability.lazyVal.tryLazyFix1
 class Greeting(val word: String)
 
 open class Father {
+  init {
+    sayGreeting()
+  }
 
-    init {
-        sayGreeting()
-    }
-
-    open fun sayGreeting() = print("Luke! I'm your Father!!!")
+  open fun sayGreeting() = println("Luke! I'm your Father!!!")
 }
 
 class Leia : Father() {
+  private val greeting: Greeting
+    get() {
+      if (field == null) {
+        field = Greeting("I love you!")
+      }
+      return field
+    }
 
-    private val greeting: Greeting
-        get() {
-            if (field == null) {
-                field = Greeting("I love you!")
-            }
-            return field
-        }
-
-    override fun sayGreeting() = println(greeting.word)
-
+  override fun sayGreeting() = println(greeting.word)
 }
 
 Leia()

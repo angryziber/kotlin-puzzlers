@@ -3,20 +3,17 @@ package nullability.lazyVal.tryLazy
 class Greeting(val word: String)
 
 open class Father {
+  init {
+    sayGreeting()
+  }
 
-    init {
-        sayGreeting()
-    }
-
-    open fun sayGreeting() = print("Luke! I'm your Father!!!")
+  open fun sayGreeting() = println("Luke! I'm your Father!!!")
 }
 
 class Leia : Father() {
+  private val greeting: Greeting by lazy { Greeting("I love you!") }
 
-    private val greeting: Greeting by lazy { Greeting("I love you!") }
-
-    override fun sayGreeting() = println(greeting.word)
-
+  override fun sayGreeting() = println(greeting.word)
 }
 
 Leia()

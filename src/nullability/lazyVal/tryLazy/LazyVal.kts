@@ -1,4 +1,5 @@
 package nullability.lazyVal.tryLazy
+// by Roman Donchenko @drstranges
 
 class Greeting(val word: String)
 

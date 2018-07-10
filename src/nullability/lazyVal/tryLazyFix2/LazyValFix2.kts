@@ -1,4 +1,5 @@
 package nullability.lazyVal.tryLazyFix2
+// by Roman Donchenko @drstranges
 
 class Greeting(val word: String)
 

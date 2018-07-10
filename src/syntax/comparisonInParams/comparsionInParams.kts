@@ -1,3 +1,5 @@
+package syntax.comparisonInParams
+// by Roman Donchenko @drstranges
 
 fun foo(a: Boolean, b: Boolean) = print("$a, $b")
 

@@ -1,9 +1,9 @@
 package data.delegate
-// By Nikolas Havrikov
+// by Nikolas Havrikov
 
 data class Container(val name: String, private val items: List<Int>) : List<Int> by items
 
-val (name, items) = Container("Kotlin", kotlin.collections.listOf(1, 2, 3))
+val (name, items) = Container("Kotlin", listOf(1, 2, 3))
 println("Hello $name, $items")
 
 // What will it print?

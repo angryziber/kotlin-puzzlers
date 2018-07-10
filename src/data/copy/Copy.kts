@@ -1,4 +1,5 @@
 // inspired by Adam Arold @addamsson
+package data.copy
 
 data class Container(val list: MutableList<String>)
 

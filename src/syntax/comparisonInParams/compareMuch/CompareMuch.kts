@@ -1,4 +1,4 @@
-package bugs.compareMuch
+package syntax.comparisonInParams.compareMuch
 // by @DeveloperHacker
 
 import java.util.Random

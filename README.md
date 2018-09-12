@@ -22,13 +22,14 @@ Contributing
 As is common with puzzlers, please submit yours (either pull requests or issues) and I will credit you 
 during the next talk.
 
-Presentations
-=============
+Conference talks
+================
 
-* [KotlinConf](https://kotlinconf.com/speakers/) in San Francisco [(video)](https://www.youtube.com/watch?v=ukwVzLq_pHk)
+* [KotlinConf 2018](https://kotlinconf.com/schedule/#date=5-october)
+* [KotlinConf 2017](https://kotlinconf.com/2017/talks/) in San Francisco [(video)](https://www.youtube.com/watch?v=ukwVzLq_pHk)
 * [JEEConf 2017](http://jeeconf.com/program/kotlin-puzzlers/) in Kyiv
-* [Mobius 2017](https://mobiusconf.com/en/talks/kotlin-puzzlers/) in St Petersburg
-* [JPoint 2017](http://jpoint.ru/talks/kotlin-puzzlers/) in Moscow [(video)](https://youtu.be/h4eIuz-CwYc?t=8h26m14s) 
+* [Mobius 2017](http://2017.mobiusconf.com/en/talks/kotlin-puzzlers/) in St Petersburg
+* [JPoint 2017](http://2017.jpoint.ru/talks/kotlin-puzzlers/) in Moscow [(video)](https://youtu.be/h4eIuz-CwYc?t=8h26m14s) 
 * [Topconf Tallinn 2016](http://topconf.com/tallinn-2016/trackevent/kotlin-puzzlers/) [(slides)](https://docs.google.com/presentation/d/1eSl70ID_yLsq-MdRfPoubV2LU-KZpqlQf-5nskbXsQs/) [(video)](https://youtu.be/MDhjIkkpBAQ)
 
 Posts

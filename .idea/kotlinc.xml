@@ -4,4 +4,7 @@
     <option name="sourceMapEmbedSources" />
     <option name="sourceMapPrefix" />
   </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
 </project>

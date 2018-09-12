@@ -2,5 +2,5 @@ Fixing:
 
 ```
 @DslMarker annotation class BeerLang
-@BeerLang data class Hop...
+@BeerLang data class Hops...
 ```

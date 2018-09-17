@@ -1,4 +1,4 @@
-Correct answer: ***b) C@1544bf85; null***
+Correct answer: **b) C@1544bf85; null**
 
 * Singleton objects are initialized in an order determined by trying to topologically sort them by their dependencies.
 * In case of an initialization cycle a complete topological sort is impossible, and it is possible to observe the value of an object involved in the cycle as `null`.

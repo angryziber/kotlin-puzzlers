@@ -11,6 +11,6 @@ println(a)
 
 // What will it print?
 // a) 87
-// b) will not compile
+// b) kotlin.Unit
 // c) ClassCastException
-// d) kotlin.Unit
+// d) will not compile

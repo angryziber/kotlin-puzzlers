@@ -1,4 +1,4 @@
-Correct answer: **d) kotlin.Unit**
+Correct answer: **b) kotlin.Unit**
 
 * Kotlin compiler actively uses data-flow information.
   An object of type `Nothing` cannot appear regularly in the code,

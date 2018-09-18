@@ -1,4 +1,5 @@
 package types.nothingYet
+// by Marat Kh. Akhin
 
 fun <T> Any?.asGeneric() = this as? T
 

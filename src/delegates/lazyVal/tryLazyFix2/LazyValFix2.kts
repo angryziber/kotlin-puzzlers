@@ -1,4 +1,4 @@
-package nullability.lazyVal.tryLazyFix1
+package delegates.lazyVal.tryLazyFix2
 // by Roman Donchenko @drstranges
 
 class Greeting(val word: String)
@@ -12,7 +12,7 @@ open class Father {
 }
 
 class Leia : Father() {
-  private val greeting: Greeting
+  private var greeting: Greeting? = null
     get() {
       if (field == null) {
         field = Greeting("I love you!")
@@ -20,7 +20,7 @@ class Leia : Father() {
       return field
     }
 
-  override fun sayGreeting() = println(greeting.word)
+  override fun sayGreeting() = println(greeting!!.word)
 }
 
 Leia()

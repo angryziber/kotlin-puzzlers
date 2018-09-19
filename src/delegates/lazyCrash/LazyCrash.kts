@@ -1,4 +1,4 @@
-package delegates.lazy
+package delegates.lazyCrash
 
 class Lazy {
   var x = 0

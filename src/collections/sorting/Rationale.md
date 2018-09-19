@@ -1,4 +1,4 @@
-Correct answer: **c) kotlin.Unit**
+Correct answer: **d) kotlin.Unit**
 
 There are two functions: 
  - `sort()` - sorts a mutable collection in place, this is a 'void' method from Java

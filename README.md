@@ -25,7 +25,7 @@ during the next talk.
 Conference talks
 ================
 
-* [KotlinConf 2018](https://kotlinconf.com/schedule/#date=5-october)
+* [KotlinConf 2018](https://kotlinconf.com/schedule/#date=5-october) in Amsterdam
 * [KotlinConf 2017](https://kotlinconf.com/2017/talks/) in San Francisco [(video)](https://www.youtube.com/watch?v=ukwVzLq_pHk)
 * [JEEConf 2017](http://jeeconf.com/program/kotlin-puzzlers/) in Kyiv
 * [Mobius 2017](http://2017.mobiusconf.com/en/talks/kotlin-puzzlers/) in St Petersburg

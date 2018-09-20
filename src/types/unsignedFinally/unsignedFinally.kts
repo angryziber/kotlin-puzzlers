@@ -5,7 +5,7 @@ println(x--)
 println(--x)
 
 // What will it print?
-// 1) 4294967295 4294967294
-// 2) 0 4294967295
-// 3) will not compile
-// 4) none of the above
+// a) 4294967295 4294967294
+// b) 0 4294967295
+// c) 0 -2
+// d) will not compile

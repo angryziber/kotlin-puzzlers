@@ -1,4 +1,4 @@
-Correct answer: **d) 0 -2 (none of the above)**
+Correct answer: **c) 0 -2**
 
 * UInt is an inline class masking a regular Int
 * If you pass an inline class value to an Any parameter, it will get boxed

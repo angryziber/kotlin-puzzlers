@@ -1,4 +1,5 @@
 package properties.initOpenProperty
+// by Daniil Vodopian @voddan
 
 interface A {
     var a: Int

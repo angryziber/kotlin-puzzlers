@@ -17,3 +17,9 @@ val recipe = beer {
 }
 
 println(recipe)
+
+// What will it print?
+// a) Recipe(name=Simple IPA, hops=[Hops(name=Cascade, atMinute=15, grams=100)])
+// b) IllegalArgumentException
+// c) will not compile
+// d) none of the above

@@ -1,7 +1,8 @@
 package data.delegate
 // by Nikolas Havrikov
 
-data class Container(val name: String, private val items: List<Int>) : List<Int> by items
+data class Container(val name: String, private val items: List<Int>)
+  : List<Int> by items
 
 val (name, items) = Container("Kotlin", listOf(1, 2, 3))
 println("Hello $name, $items")

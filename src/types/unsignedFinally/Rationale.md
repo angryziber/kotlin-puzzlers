@@ -1,6 +1,4 @@
-Correct answer: **c) 0 -2**
+Correct answer: **c) 0 4294967294**
 
 * UInt is an inline class masking a regular Int
 * If you pass an inline class value to an Any parameter, it will get boxed
-* But there seems to be a problem with decrementing and passing at the same time
-* Probably a bug in compiler that will be fixed

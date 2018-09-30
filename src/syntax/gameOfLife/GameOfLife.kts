@@ -1,6 +1,6 @@
-val cells = arrayOf(intArrayOf(1, 0, 1),
-                    intArrayOf(0, 1, 1),
-                    intArrayOf(1, 1, 1))
+val cells = arrayOf(arrayOf(1, 1, 1),
+                    arrayOf(0, 1, 1),
+                    arrayOf(1, 0, 1))
 
 var neighbors = cells[0][0] + cells[0][1] + cells[0][2]
               + cells[1][0]               + cells[1][2]

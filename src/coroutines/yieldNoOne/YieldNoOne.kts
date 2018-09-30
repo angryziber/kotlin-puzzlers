@@ -1,6 +1,6 @@
 package coroutines.yieldNoOne
 
-val x = buildSequence {
+val x = sequence {
   var n = 0
   while (true) yield(n++)
 }

@@ -1,9 +1,8 @@
-Correct answer: **a) Tallinn**
+Correct answer: **b) 'Tallinn'**
 
-* Inline classes generally don't exist in runtime
-* "Inline class is boxed when it is used as another type"
+* Instances of inline classes generally are not created in runtime
+* Except for when they are passed as supertypes (e.g. Any), then they are boxed
   https://github.com/Kotlin/KEEP/blob/master/proposals/inline-classes.md
-  * println() probably is an exception, because it has a println(String) signature
-  * inlining *my* variable produces the result **b)**, inline refactoring is not safe anymore  
-  * hopefully this will be fixed when inline classes stop being experimental
+* println() has both (Any) and (String) signatures
+* Kotlin 1.3 M versions did pick the String version resulting in answer **a)**
   

@@ -3,7 +3,7 @@ package types.nothingYet
 
 fun <T> Any?.asGeneric() = this as? T
 
-42.asGeneric<Nothing>()!!
+42.asGeneric<Nothing>()!!!!
 
 val a = if (true) 87
 println(a)

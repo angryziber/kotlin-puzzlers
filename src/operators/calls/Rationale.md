@@ -6,3 +6,4 @@ Correct answer: **a) fun: called**
 * Even though the `fun` is preferred, it's possible to call the `val` as well:
   * `(toCall)("called")`
   * `toCall.invoke("called")`
+* Moving the call in front of the declaration actually changes the answer

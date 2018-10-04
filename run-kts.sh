@@ -1,5 +1,5 @@
 #!/bin/bash
-# Conference Puzzler runner
+# Conference Puzzler runner, requires mpeg123 and mpv for audio/video playback
 # Configure it as an External Tool in IDEA with a keyboard shortcut
 # Arguments: $FilePath$ $FileFQPackage$.$FileNameWithoutExtension$Kt
 
@@ -25,4 +25,4 @@ else
 fi
 
 sleep 1
-#mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.* 2>/dev/null >/dev/null
+mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.* 2>/dev/null >/dev/null

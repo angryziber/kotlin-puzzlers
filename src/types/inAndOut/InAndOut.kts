@@ -1,11 +1,18 @@
+import java.util.function.Consumer
+
 class Hipster<in T> {
-  fun eat(t: Set<out T>) = print(t)
+  val stomach = mutableSetOf<T>()
+  fun eat(what: Collection<out T>) { stomach += what }
+  fun eat(what: Comparable<T>) { stomach += what as T }
 }
 
-Hipster().eat(setOf("burger", "fries"))
+Hipster<CharSequence>().apply {
+  eat(setOf("burger", "fries"))
+  print(stomach)
+}
 
 // What will it print?
 // a) [burger, fries]
-// b) ClassCastException
-// c) will not compile due to conflicting variance
-// d) will not compile due to failed type inference
+// b) []
+// b) an Exception
+// c) will not compile

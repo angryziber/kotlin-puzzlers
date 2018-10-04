@@ -1,4 +1,4 @@
-Correct answer: **a) "fun called"**
+Correct answer: **a) fun: called**
 
 * `val` shadows the parameter
 * No idea why `fun` is picked over `val`  

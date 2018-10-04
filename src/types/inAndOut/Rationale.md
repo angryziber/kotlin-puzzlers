@@ -1,4 +1,4 @@
-Correct answer **d) will not compile due to failed type inference**
+Correct answer **d) will not compile**
 
 * Hipster is contravariant to T (in == consumer), but immutable Collection is covariant to T (out == producer)
   * There is no conflict here

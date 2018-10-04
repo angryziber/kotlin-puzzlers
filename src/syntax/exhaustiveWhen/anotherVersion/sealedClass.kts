@@ -1,4 +1,4 @@
-package types.sealedClass
+package syntax.exhaustiveWhen.anotherVersion
 
 sealed class Animal {
   class Human : Animal()

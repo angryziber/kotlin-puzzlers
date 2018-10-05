@@ -3,3 +3,4 @@
 * !it.geoTagged.apply { if (this) print("true") } vs (!it.geoTagged).apply { if (this) print("true") }
 * Something with in/out generics?
 * Coroutines? e.g. delay() in restricted suspension?
+* fun foo(f: () -> String = fun() = "hh") = f()

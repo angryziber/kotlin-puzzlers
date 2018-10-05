@@ -1,5 +1,3 @@
-import java.util.function.Consumer
-
 class Hipster<in T> {
   val stomach = mutableSetOf<T>()
   fun eat(what: Collection<out T>) { stomach += what }

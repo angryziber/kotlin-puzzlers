@@ -1,3 +1,7 @@
+* crossinline
+* null.toString()
+* sealed class with open sibling, and another class that extends it
+* How to resolve overload ambiguity in method references?
 * Property annotations - where do they get?
 * file.listFiles().filter { it.endsWith(".xml") } not same as it.name.endsWith(".xml")
 * !it.geoTagged.apply { if (this) print("true") } vs (!it.geoTagged).apply { if (this) print("true") }

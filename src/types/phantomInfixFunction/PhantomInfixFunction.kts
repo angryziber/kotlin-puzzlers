@@ -1,21 +1,21 @@
 package types.phantomInfixFunction
+// by Alexey Hanin @ahanin
 
 class PersonBuilder {
-
-    infix fun String.to(value: Any) {
-        print(value)
-    }
+  infix fun String.to(value: Any) {
+    print(value)
+  }
 }
 
 fun person(block: PersonBuilder.() -> Unit) {
-    PersonBuilder().block()
+  PersonBuilder().block()
 }
 
 class John
 
 person {
-    "firstname" to John::class.simpleName
-    "lastname" to "Doe"
+  "firstname" to John::class.simpleName
+  "lastname" to "Doe"
 }
 
 // What will it print?

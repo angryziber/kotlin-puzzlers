@@ -1,3 +1,5 @@
+// by @bipokot
+
 class Message(val text: String)
 
 sealed class Greeting(val message: Message) {

@@ -1,4 +1,4 @@
-package types.phantomInfixFunction
+package nullability.phantomInfixFunction
 // by Alexey Hanin @ahanin
 
 class PersonBuilder {

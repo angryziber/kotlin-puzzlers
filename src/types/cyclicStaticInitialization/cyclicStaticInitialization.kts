@@ -1,13 +1,14 @@
 package types.cyclicStaticInitialization
+// by David Sommerich @sommd
 
 open class A {
-    companion object {
-        val a = B.b
-    }
+  companion object {
+    val a = B.b
+  }
 }
 
-object B: A() {
-    val b = "hello"
+object B : A() {
+  val b = "hello"
 }
 
 // Part 1

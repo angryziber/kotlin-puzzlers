@@ -7,3 +7,5 @@ Correct answer: **c) 3 1; 3 2; 3 3**
   and would result in **3 3; 3 3; 3 3** 
 
 [Source](https://discuss.kotlinlang.org/t/kotlin-is-even-more-confusing-than-js/7292)
+
+Watch [KotlinConf 2018 - Kotlin Puzzlers, vol 2 by Anton Keks 30:00](https://www.youtube.com/watch?v=Xq9vBZs0j-8&lc=UgzrxmtADpeVJWbzo-14AaABAg#t=30m00s)

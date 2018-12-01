@@ -9,3 +9,5 @@ Correct answer: **b) kotlin.Unit**
   into believing the code is unreachable, whereas it actually is reachable.
 * At the moment (Kotlin 1.2), the backend compiles this `if`
   as if it returns `Unit`.
+
+Watch [KotlinConf 2018 - Kotlin Puzzlers, vol 2 by Anton Keks 39:46](https://www.youtube.com/watch?v=Xq9vBZs0j-8&lc=UgzrxmtADpeVJWbzo-14AaABAg#t=39m46s)

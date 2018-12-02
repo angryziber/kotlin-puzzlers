@@ -6,3 +6,4 @@ Correct answer: **b) !xy**
 * toString() extension can be declared, but cannot be called
   - Produces 'extension is shadowed' warning
   
+Watch [KotlinConf 2017 - Kotlin Puzzlers by Anton Keks 41:00](https://www.youtube.com/watch?v=ukwVzLq_pHk&lc=UgzH3QiIn1vLhtL2M0Z4AaABAg#t=41m00s)

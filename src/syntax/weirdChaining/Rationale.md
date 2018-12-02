@@ -9,3 +9,5 @@ Correct answer: **d) zero; positive**
   the function will return immediately
 * To avoid this situation, you can wrap the entire `if ... else ...` in parens,
   and then chain `.let` on it
+
+Watch [KotlinConf 2017 - Kotlin Puzzlers by Anton Keks 36:08](https://www.youtube.com/watch?v=ukwVzLq_pHk&lc=UgzH3QiIn1vLhtL2M0Z4AaABAg#t=36m08s)

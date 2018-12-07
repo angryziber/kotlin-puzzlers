@@ -2,10 +2,10 @@ package syntax.naughtyWhen
 // by Ilya Gorbunov
 
 fun f(x: Boolean) {
-   when(x) {
-       x == true -> println("$x TRUE")
-       x == false -> println("$x FALSE")
-   }
+  when (x) {
+    x == true -> println("$x TRUE")
+    x == false -> println("$x FALSE")
+  }
 }
 
 f(true)

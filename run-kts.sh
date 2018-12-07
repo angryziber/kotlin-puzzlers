@@ -6,7 +6,8 @@
 FILE=$1
 CLASS=$2
 
-KOTLIN_LIB=~/.IntelliJIdea2018.2/config/plugins/Kotlin/kotlinc/lib
+LATEST_IDEA=`ls -d ~/.IntelliJIdea* | tail -n 1`
+KOTLIN_LIB=$LATEST_IDEA/config/plugins/Kotlin/kotlinc/lib
 
 if [ -z "$2" ]; then
   echo "2 params required"

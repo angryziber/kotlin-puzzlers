@@ -7,5 +7,5 @@ Correct answer: **b) kotlin.Unit**
   for example, for `if` expression exhaustiveness.
 * Our `asGeneric<T>()` function uses an unsafe cast to *cheat* the type system
   into believing the code is unreachable, whereas it actually is reachable.
-* At the moment (Kotlin 1.2), the backend compiles this `if`
+* At the moment (Kotlin 1.3), the backend compiles this `if`
   as if it returns `Unit`.

@@ -1,6 +1,6 @@
 package dsl.craftBuilder
 
-data class Recipe(var name: String? = null, var hops: List<Hops> = mutableListOf())
+data class Recipe(var name: String? = null, var hops: List<Hops> = emptyList())
 data class Hops(var kind: String? = null, var atMinute: Int = 0, var grams: Int = 0)
 
 fun beer(build: Recipe.() -> Unit) = Recipe().apply(build)

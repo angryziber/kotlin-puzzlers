@@ -17,3 +17,5 @@ But if you are using the Elvis operator inside mathematical expressions (or oper
 ```kotlin
 val sum = (x?:0) + y
 ```
+
+Watch [KotlinConf 2018 - Kotlin Puzzlers, vol 2 by Anton Keks 16:06](https://www.youtube.com/watch?v=Xq9vBZs0j-8&lc=UgzrxmtADpeVJWbzo-14AaABAg#t=16m06s)

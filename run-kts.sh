@@ -11,6 +11,7 @@ KOTLIN_LIB=$LATEST_IDEA/config/plugins/Kotlin/kotlinc/lib
 
 if [ -z "$2" ]; then
   echo "2 params required"
+  exit 1
 fi
 
 DIR=$(dirname $FILE)

@@ -1,4 +1,5 @@
 package types.matchingLambdas
+// by Róbert Papp (TWiStErRob)
 
 fun <T> pick(first: Boolean, f1: () -> T, f2: () -> T): T =
 	if (first) f1() else f2()

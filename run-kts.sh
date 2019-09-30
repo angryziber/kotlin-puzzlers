@@ -6,14 +6,14 @@
 FILE=$1
 CLASS=$2
 
-LATEST_IDEA=`ls -d ~/.IntelliJIdea* | tail -n 1`
+LATEST_IDEA=$(ls -d ~/.IntelliJIdea* | tail -n 1)
 KOTLIN_LIB=$LATEST_IDEA/config/plugins/Kotlin/kotlinc/lib
 
 if [ -z "$2" ]; then
   echo "2 params required"
 fi
 
-DIR=`dirname $FILE`
+DIR=$(dirname $FILE)
 
 echo "Drum roll..." >&2
 screen -d -m mpg123 -k 50 drumroll.mp3

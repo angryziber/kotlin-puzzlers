@@ -1,24 +1,18 @@
 package functions.overloadedOoops
+// by @ConstOrVar
 
-class Test {
-
-    fun test(block: () -> Int = { 0 }): String {
-        return "${block()}"
-    }
-
-    fun test2(block: () -> Int = { 0 }): () -> String {
-        return { test(block) }
-    }
+fun test(block: () -> Int = { 0 }): String {
+  return "${block()}"
 }
 
+fun test2(block: () -> Int = { 0 }): () -> String {
+  return { test(block) }
+}
 
 { println("Start") }()
 
-
-val t = Test()
-val a = t.test { 2 } == t.test2 { 2 }()
-val b = t.test() == t.test2()()
-
+val a = test { 2 } == test2 { 2 }()
+val b = test() == test2()()
 
 { println("Finish $a $b") }()
 

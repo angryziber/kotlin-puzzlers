@@ -14,6 +14,6 @@ println(unsafeCode())
 
 // What will it print?
 // a) kotlin.Nothing
-// c) null
+// b) null
 // c) Will not compile
 // d) None of the above

@@ -3,10 +3,8 @@
 import sun.misc.Unsafe
 
 fun unsafeCode(): String {
-  val unsafe =
-    Class.forName("sun.misc.Unsafe")
-      .declaredFields
-      .first { it.name == "theUnsafe" }
+  val unsafe = Class.forName("sun.misc.Unsafe")
+      .declaredFields.first { it.name == "theUnsafe" }
       .apply { isAccessible = true }
       .get(null) as Unsafe
   unsafe.allocateInstance(Nothing::class.java) as Nothing

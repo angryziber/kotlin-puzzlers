@@ -13,7 +13,7 @@ suspend fun returnString(): String =
     printAndReturnInt("42 ")
   }
 
-runBlocking { // TODO: GlobalScope.run()
+runBlocking {
   print(returnString())
 }
 

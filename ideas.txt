@@ -1,5 +1,5 @@
+* mockk() { var } vs local var - which one is taken?
 * crossinline
-* null.toString()
 * sealed class with open sibling, and another class that extends it
 * How to resolve overload ambiguity in method references?
 * Property annotations - where do they get?
@@ -8,3 +8,8 @@
 * Something with in/out generics?
 * Coroutines? e.g. delay() in restricted suspension?
 * fun foo(f: () -> String = fun() = "hh") = f()
+
+
+if
+    if
+else (for the previous if)

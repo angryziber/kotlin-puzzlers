@@ -8,3 +8,4 @@
 * Something with in/out generics?
 * Coroutines? e.g. delay() in restricted suspension?
 * fun foo(f: () -> String = fun() = "hh") = f()
+* kotlin.Unit vs kotlin.UInt

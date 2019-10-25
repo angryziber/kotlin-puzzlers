@@ -8,8 +8,3 @@
 * Something with in/out generics?
 * Coroutines? e.g. delay() in restricted suspension?
 * fun foo(f: () -> String = fun() = "hh") = f()
-
-
-if
-    if
-else (for the previous if)

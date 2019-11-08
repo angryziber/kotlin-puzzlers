@@ -1,10 +1,9 @@
 #!/bin/bash
 # Conference Puzzler runner, requires mpeg123 and mpv for audio/video playback
 # Configure it as an External Tool in IDEA with a keyboard shortcut
-# Arguments: $FilePath$ $FileFQPackage$.$FileNameWithoutExtension$Kt
+# Arguments: $FilePath$
 
 FILE=$1
-CLASS=$2
 
 LATEST_IDEA=$(ls -d ~/.IntelliJIdea* | tail -n 1)
 [ -z "$KOTLIN_HOME" ] && KOTLIN_HOME="$LATEST_IDEA/config/plugins/Kotlin/kotlinc"
@@ -26,7 +25,9 @@ if [[ $FILE == *.kts ]]; then
   # TODO: Jetbrains has broken something and running with -script doesn't work anymore - script template is not found again... Maybe additional classpath is needed
   java -cp "$KOTLIN_HOME/lib/*" org.jetbrains.kotlin.cli.jvm.K2JVMCompiler $KOTLINC_ARGS -script $FILE
 else
+  # compile & run package-less *.kt file
   OUT="out/production/kotlin-puzzlers"
+  CLASS=$(basename ${FILE%.kt})Kt
   "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -d $OUT $FILE && \
   "$KOTLIN_HOME/bin/kotlin" -cp $OUT $CLASS
 fi

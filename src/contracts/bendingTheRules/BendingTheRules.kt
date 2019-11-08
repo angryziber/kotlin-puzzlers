@@ -1,4 +1,3 @@
-package contracts.bendingTheRules
 // by Grigorii Yurkov @rpuxa
 
 import kotlin.contracts.*

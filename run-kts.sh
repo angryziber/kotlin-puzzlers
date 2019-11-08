@@ -20,13 +20,14 @@ DIR=$(dirname "$FILE")
 echo "Drum roll..." >&2
 screen -d -m mpg123 -k 50 drumroll.mp3
 
-KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.Experimental"
+KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.contracts.ExperimentalContracts"
 
 if [[ $FILE == *.kts ]]; then
+  # TODO: Jetbrains has broken something and running with -script doesn't work anymore - script template is not found again... Maybe additional classpath is needed
   java -cp "$KOTLIN_HOME/lib/*" org.jetbrains.kotlin.cli.jvm.K2JVMCompiler $KOTLINC_ARGS -script $FILE
 else
   OUT="out/production/kotlin-puzzlers"
-  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -d $OUT $FILE
+  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -d $OUT $FILE && \
   "$KOTLIN_HOME/bin/kotlin" -cp $OUT $CLASS
 fi
 

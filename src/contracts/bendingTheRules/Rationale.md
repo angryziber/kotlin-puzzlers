@@ -1,4 +1,4 @@
-Correct answer: **c) null**
+Correct answer: **c) nullnull**
 
 * We trick the compiler using the EXACTLY_ONCE contract (meaning that the lambda is called exactly once), but we don't do this.
 * Kotlin compiler doesn't check if contract conforms for reality.

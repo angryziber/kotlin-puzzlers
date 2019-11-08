@@ -7,23 +7,27 @@ FILE=$1
 CLASS=$2
 
 LATEST_IDEA=$(ls -d ~/.IntelliJIdea* | tail -n 1)
-KOTLIN_LIB=$LATEST_IDEA/config/plugins/Kotlin/kotlinc/lib
+[ -z "$KOTLIN_HOME" ] && KOTLIN_HOME="$LATEST_IDEA/config/plugins/Kotlin/kotlinc"
+[ ! -x "$KOTLIN_HOME/bin/kotlinc" ] && chmod +x "$KOTLIN_HOME/bin/kotlin" "$KOTLIN_HOME/bin/kotlinc"
 
 if [ -z "$2" ]; then
   echo "2 params required"
   exit 1
 fi
 
-DIR=$(dirname $FILE)
+DIR=$(dirname "$FILE")
 
 echo "Drum roll..." >&2
 screen -d -m mpg123 -k 50 drumroll.mp3
 
+KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.Experimental"
+
 if [[ $FILE == *.kts ]]; then
-    java -cp $KOTLIN_LIB'/*' org.jetbrains.kotlin.cli.jvm.K2JVMCompiler \
-         -nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -script $FILE
+  java -cp "$KOTLIN_HOME/lib/*" org.jetbrains.kotlin.cli.jvm.K2JVMCompiler $KOTLINC_ARGS -script $FILE
 else
-    java -cp $KOTLIN_LIB'/*':out/production/kotlin-puzzlers $CLASS
+  OUT="out/production/kotlin-puzzlers"
+  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -d $OUT $FILE
+  "$KOTLIN_HOME/bin/kotlin" -cp $OUT $CLASS
 fi
 
 sleep 1

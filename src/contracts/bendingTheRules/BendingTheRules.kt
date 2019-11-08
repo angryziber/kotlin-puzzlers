@@ -2,7 +2,7 @@
 
 import kotlin.contracts.*
 
-inline fun runLambda(block: () -> Unit) {
+inline fun runExactlyOnce(block: () -> Unit) {
   contract {
     callsInPlace(block, InvocationKind.EXACTLY_ONCE)
   }
@@ -10,7 +10,7 @@ inline fun runLambda(block: () -> Unit) {
 
 fun hello(): String {
   var hello: String
-  runLambda { hello = "Kotlin" }
+  runExactlyOnce { hello = "Kotlin" }
   return hello
 }
 

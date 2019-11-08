@@ -1,16 +1,15 @@
-package contracts.readTheFineprint
 // by Grigorii Yurkov @rpuxa
 
 import kotlin.contracts.*
 
-inline fun runLambda(block: () -> Unit) {
+inline fun runAtLeastOnce(block: () -> Unit) {
   contract {
     callsInPlace(block, InvocationKind.AT_LEAST_ONCE)
   }
 }
 
 fun getNothing(): Nothing {
-  runLambda { throw UnsupportedOperationException("Can't return Nothing!") }
+  runAtLeastOnce { throw UnsupportedOperationException("Can't return Nothing!") }
 }
 
 fun main() {

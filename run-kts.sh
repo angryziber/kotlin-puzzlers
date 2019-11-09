@@ -20,16 +20,16 @@ echo "Drum roll..." >&2
 screen -d -m mpg123 -k 50 drumroll.mp3
 
 KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.contracts.ExperimentalContracts"
+KOTLIN_CLASSPATH=$KOTLIN_HOME/lib/kotlinx-coroutines-core-1*.jar
 
 if [[ $FILE == *.kts ]]; then
-  # TODO: Jetbrains has broken something and running with -script doesn't work anymore - script template is not found again... Maybe additional classpath is needed
-  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -script $FILE
+  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -cp $KOTLIN_CLASSPATH -script $FILE
 else
   # compile & run package-less *.kt file
   OUT="out/production/kotlin-puzzlers"
   CLASS=$(basename ${FILE%.kt})Kt
-  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -d $OUT $FILE && \
-  "$KOTLIN_HOME/bin/kotlin" -cp $OUT $CLASS
+  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -cp $KOTLIN_CLASSPATH -d $OUT $FILE && \
+  "$KOTLIN_HOME/bin/kotlin" -cp $OUT:$KOTLIN_CLASSPATH $CLASS
 fi
 
 sleep 1

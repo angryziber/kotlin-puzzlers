@@ -23,7 +23,7 @@ KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsigne
 
 if [[ $FILE == *.kts ]]; then
   # TODO: Jetbrains has broken something and running with -script doesn't work anymore - script template is not found again... Maybe additional classpath is needed
-  java -cp "$KOTLIN_HOME/lib/*" org.jetbrains.kotlin.cli.jvm.K2JVMCompiler $KOTLINC_ARGS -script $FILE
+  "$KOTLIN_HOME/bin/kotlinc" $KOTLINC_ARGS -script $FILE
 else
   # compile & run package-less *.kt file
   OUT="out/production/kotlin-puzzlers"

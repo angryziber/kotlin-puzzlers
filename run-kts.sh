@@ -1,18 +1,22 @@
 #!/bin/bash
-# Conference Puzzler runner, requires mpeg123 and mpv for audio/video playback
+# Conference Puzzler runner, requires screen, mpeg123 and mpv for audio/video playback
 # Configure it as an External Tool in IDEA with a keyboard shortcut
 # Arguments: $FilePath$
 
 FILE=$1
 
-LATEST_IDEA=$(ls -d ~/.IntelliJIdea* ~/.IdeaIC* 2> /dev/null | tail -n 1)
-[ -z "$KOTLIN_HOME" ] && KOTLIN_HOME="$LATEST_IDEA/config/plugins/Kotlin/kotlinc"
-[ ! -x "$KOTLIN_HOME/bin/kotlinc" ] && chmod +x "$KOTLIN_HOME/bin/kotlin" "$KOTLIN_HOME/bin/kotlinc"
+[ -z "$FILE" ] && echo "File path should be given" && exit 1
 
-if [ -z "$2" ]; then
-  echo "2 params required"
-  exit 1
+if [ -z "$KOTLIN_HOME" ]; then
+  LATEST_IDEA_CONFIG=$(ls -d ~/.IntelliJIdea* ~/.IdeaIC* 2> /dev/null | tail -n 1)
+  KOTLIN_HOME="$LATEST_IDEA_CONFIG/config/plugins/Kotlin/kotlinc"
+  if [ ! -e "$KOTLIN_HOME" ]; then
+    KOTLIN_HOME=$(ls -d /snap/intellij-idea-{community,enterprise}/current/plugins/Kotlin/kotlinc 2> /dev/null)
+  fi
 fi
+
+[ ! -e "$KOTLIN_HOME" ] && echo "KOTLIN_HOME does not exist" && exit 1
+[ ! -x "$KOTLIN_HOME/bin/kotlinc" ] && chmod +x "$KOTLIN_HOME/bin/kotlin" "$KOTLIN_HOME/bin/kotlinc"
 
 DIR=$(dirname "$FILE")
 

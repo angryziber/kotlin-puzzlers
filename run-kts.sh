@@ -5,7 +5,7 @@
 
 FILE=$1
 
-LATEST_IDEA=$(ls -d ~/.IntelliJIdea* | tail -n 1)
+LATEST_IDEA=$(ls -d ~/.IntelliJIdea* ~/.IdeaIC* 2> /dev/null | tail -n 1)
 [ -z "$KOTLIN_HOME" ] && KOTLIN_HOME="$LATEST_IDEA/config/plugins/Kotlin/kotlinc"
 [ ! -x "$KOTLIN_HOME/bin/kotlinc" ] && chmod +x "$KOTLIN_HOME/bin/kotlin" "$KOTLIN_HOME/bin/kotlinc"
 

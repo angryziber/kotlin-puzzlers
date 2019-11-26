@@ -1,4 +1,4 @@
-Correct answer: **c) [I@192f1739  [1, 2, 3]  kotlin.Unit**
+Correct answer: **d) None of the above - [I@192f1739  [1, 2, 3]  kotlin.Unit**
 
 (Hashcode of the array may be different)
 

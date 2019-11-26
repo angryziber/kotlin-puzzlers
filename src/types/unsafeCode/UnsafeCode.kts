@@ -1,5 +1,4 @@
 // by Grigorii Yurkov @rpuxa
-
 import sun.misc.Unsafe
 
 fun unsafeCode(): String {

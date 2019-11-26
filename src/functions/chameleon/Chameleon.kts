@@ -1,7 +1,7 @@
 // by Paul Finkelshteyn
 
 inline fun some(
-   param1: () -> String = {"${param2} World"},
+   param1: () -> String = {"$param2 World"},
    param2: String = "Hello"
 ) = println(param1())
 

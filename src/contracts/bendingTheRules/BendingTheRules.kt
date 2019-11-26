@@ -1,10 +1,10 @@
 // by Grigorii Yurkov @rpuxa
-
 import kotlin.contracts.*
+import kotlin.contracts.InvocationKind.*
 
 inline fun runExactlyOnce(block: () -> Unit) {
   contract {
-    callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    callsInPlace(block, EXACTLY_ONCE)
   }
 }
 

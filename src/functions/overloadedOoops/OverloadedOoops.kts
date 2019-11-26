@@ -1,4 +1,3 @@
-package functions.overloadedOoops
 // by @ConstOrVar
 
 fun test(block: () -> Int = {0}) = "${block()}"

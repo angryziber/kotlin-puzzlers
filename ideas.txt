@@ -1,3 +1,5 @@
+explain bugs/nan
+
 * mockk() { var } vs local var - which one is taken?
 * crossinline
 * sealed class with open sibling, and another class that extends it

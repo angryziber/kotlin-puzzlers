@@ -1,7 +1,7 @@
 // by Sergei Bulgakov @SerVB
 
 for (i in 1..10 step 2 step 3) {
-    println(i)
+  print("${i} ")
 }
 
 // What will it print?

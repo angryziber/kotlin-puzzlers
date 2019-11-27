@@ -17,3 +17,5 @@ this code throws java.lang.VerifyError. It means that Kotlin compiled wrong byte
     INVOKEVIRTUAL kotlin/Unit.toString ()Ljava/lang/String;
 
 As we can see, we try to invoke kotlin.Unit.toString() on java.lang.Void instance
+
+Unsafe is indeed unsafe :-)

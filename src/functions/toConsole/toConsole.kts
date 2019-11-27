@@ -1,6 +1,6 @@
 // by Grigorii Yurkov @rpuxa
 
-fun Any.toConsole(): Unit = print("$this  ")
+fun Any.toConsole() = print("$this  ")
 
 val list = listOf(1, 2, 3)
 val array = IntArray(1)

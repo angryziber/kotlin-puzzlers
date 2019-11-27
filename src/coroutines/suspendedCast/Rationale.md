@@ -1,4 +1,4 @@
-Correct answer: **a) 42 43**
+Correct answer: **a) 42**
 
-As far as I understand all suspend functions have an Object as return type (that's why there is no ClassCastException) 
-and suspendCoroutineUninterceptedOrReturn() allows you to return anything regardless return type (its needed for some library functions)
+* All *suspend* functions have Object as return type (that's why there is no ClassCastException) 
+* `suspendCoroutineUninterceptedOrReturn()` allows you to return anything regardless return type (its needed for some library functions)

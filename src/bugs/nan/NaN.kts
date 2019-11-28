@@ -1,4 +1,4 @@
-// by Grigorii Yurkov @rpuxa
+// after Grigorii Yurkov @rpuxa
 
 val number: Number = 0.0 / 0.0
 println(if (number is Double) number == number else "not Double")

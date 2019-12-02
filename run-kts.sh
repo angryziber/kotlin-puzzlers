@@ -22,7 +22,7 @@ DIR=$(dirname "$FILE")
 
 echo "Drum roll..." >&2
 # IDEA snap doesn't have access to PulseAudio, to use HDMI: --audio-device=alsa/hdmi:CARD=PCH,DEV=1
-mpv --no-terminal drumroll.mp3 &
+mpv --no-terminal --start=+2 drumroll.mp3 &
 
 KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.contracts.ExperimentalContracts"
 KOTLIN_CLASSPATH=$KOTLIN_HOME/lib/kotlinx-coroutines-core-1*.jar

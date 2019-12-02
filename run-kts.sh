@@ -11,7 +11,7 @@ if [ -z "$KOTLIN_HOME" ]; then
   LATEST_IDEA_CONFIG=$(ls -d ~/.IntelliJIdea* ~/.IdeaIC* 2> /dev/null | tail -n 1)
   KOTLIN_HOME="$LATEST_IDEA_CONFIG/config/plugins/Kotlin/kotlinc"
   if [ ! -e "$KOTLIN_HOME" ]; then
-    KOTLIN_HOME=$(ls -d /snap/intellij-idea-{community,enterprise}/current/plugins/Kotlin/kotlinc 2> /dev/null)
+    KOTLIN_HOME=$(ls -d /snap/intellij-idea-{community,ultimate}/current/plugins/Kotlin/kotlinc 2> /dev/null)
   fi
 fi
 

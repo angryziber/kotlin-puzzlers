@@ -4,6 +4,7 @@
 # Arguments: $FilePath$
 
 FILE=$1
+NOVIDEO=$2
 
 [ -z "$FILE" ] && echo "File path should be given" && exit 1
 
@@ -22,7 +23,7 @@ DIR=$(dirname "$FILE")
 
 echo "Drum roll..." >&2
 # IDEA snap doesn't have access to PulseAudio, to use HDMI: --audio-device=alsa/hdmi:CARD=PCH,DEV=1
-mpv --no-terminal --start=+2 drumroll.mp3 &
+[ -z "$NOVIDEO" ] && mpv --no-terminal --start=+2 drumroll.mp3 &
 
 KOTLINC_ARGS="-nowarn -progressive -Xuse-experimental=kotlin.ExperimentalUnsignedTypes -Xuse-experimental=kotlin.contracts.ExperimentalContracts"
 KOTLIN_CLASSPATH=$KOTLIN_HOME/lib/kotlinx-coroutines-core-1*.jar
@@ -38,4 +39,4 @@ else
 fi
 
 sleep 1
-mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.* 2>/dev/null >/dev/null
+[ -z "$NOVIDEO" ] && mpv --quiet --no-osc --ontop --no-border --autofit=50%x50% --geometry=100%:0% --loop $DIR/giphy.* 2>/dev/null >/dev/null

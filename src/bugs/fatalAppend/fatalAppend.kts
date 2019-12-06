@@ -1,4 +1,5 @@
-// by Anton Spaans @streetsofboston & Mikołaj Fornal @florian3k
+// by Anton Spaans @streetsofboston
+//  & Mikołaj Fornal @florian3k
 
 class Foo(var bar: String)
 

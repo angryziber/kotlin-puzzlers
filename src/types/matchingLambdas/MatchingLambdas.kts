@@ -7,7 +7,7 @@ println(pick(true, { 1 }, { "2" }))
 println(pick(false, { 1 }, { "2" }))
 
 // What will it print?
-// a) 1 and 2 on separate lines
-// b) ClassCastException: String cannot be cast to Integer
-// c) Fails to compile due to Int and String mismatch in T
-// d) ClassCastException: Int cannot be cast to String
+// a) 1; 2
+// b) ClassCastException: String to Integer
+// c) Fails to compile due to Int and String mismatch
+// d) ClassCastException: Int to String

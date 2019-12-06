@@ -7,11 +7,11 @@ fun <T> weirdPrint(a: ArrayList<in T>) =
     throw UnsupportedOperationException()
   }
 
-weirdPrint(if (false) arrayListOf(42) else arrayListOf("Hello"))
+weirdPrint(if (false) arrayListOf(42)
+           else arrayListOf("Hello"))
 
 // What will it print?
 // a) [Hello]
 // b) [Hello] NullPointerException
 // c) [Hello] UnsupportedOperationException
 // d) Will not compile
-

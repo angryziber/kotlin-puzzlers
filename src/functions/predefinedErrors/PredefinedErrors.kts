@@ -4,7 +4,8 @@ class Error(val code: Int) {
   override fun toString(): String = "Error $code"
 }
 
-enum class Errors(code: Int, val error: Error = error(code)) {
+enum class Errors(code: Int,
+                  val error: Error = error(code)) {
   E1(1), E2(2), E3(3);
   fun error(code: Int) = Error(code)
 }

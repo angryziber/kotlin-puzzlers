@@ -1,6 +1,6 @@
 Correct answer: **c) Will not compile**
 
 The syntax is reserved for future use. 
-Change to `(::recursive())()` to get **a)**
+Change to `(::recursive())()` or just `recursive()` to get **a)**
 
-TODO: needs a comment from Andrey Breslav
+Jetbrains: `::method(params)` is reserved for resolving references to overloaded functions, by specifying parameter types.

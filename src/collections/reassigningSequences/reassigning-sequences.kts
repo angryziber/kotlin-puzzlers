@@ -1,4 +1,4 @@
-package collections.inclusiveRanges
+package collections.reassigningSequences
 // by marstran
 
 var seq = sequenceOf(1)

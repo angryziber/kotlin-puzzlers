@@ -23,3 +23,4 @@ Some more obscure features:
 Kotlin/JS:
 * cannot have a class name with spaces in ``
 * no way to create instance of KClass/JsClass (workaround: js("new constructor()"))
+* accessing of protected fields in companion object from subclass is "not supported", but compiles with @JvmStatic and fails at runtime

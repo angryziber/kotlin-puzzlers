@@ -1,4 +1,4 @@
-// by Paul Finkelshteyn
+// by Pasha Finkelshteyn
 
 inline fun some(
    param1: () -> String = {"$param2 World"},

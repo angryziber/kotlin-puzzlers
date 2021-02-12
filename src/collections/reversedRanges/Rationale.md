@@ -1,6 +1,6 @@
 Correct answer: **b) false**
 
- * `0..10` is an overloaded operator function call for `0.rangeTo(9)`
+ * `0..10` is an overloaded operator function call for `0.rangeTo(10)`
  * `rangeTo` produces an `IntRange : IntProgression, ClosedRange` object
  * `rangeTo` is an inclusive factory: `[from, to]`, while `until` would be exclusive at the end: `[from, to)`
  * `0..10` is therefore and `IntRange` over `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10` (11 values)

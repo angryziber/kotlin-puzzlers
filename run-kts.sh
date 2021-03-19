@@ -9,8 +9,8 @@ NOVIDEO=$2
 [ -z "$FILE" ] && echo "File path should be given" && exit 1
 
 if [ -z "$KOTLIN_HOME" ]; then
-  LATEST_IDEA_CONFIG=$(ls -d ~/.IntelliJIdea* ~/.IdeaIC* 2> /dev/null | tail -n 1)
-  KOTLIN_HOME="$LATEST_IDEA_CONFIG/config/plugins/Kotlin/kotlinc"
+  PLUGIN_DIR=$(ls -d ~/.local/share/JetBrains/IntelliJIdea* ~/.local/share/JetBrains/IdeaIC* 2> /dev/null | tail -n 1)
+  KOTLIN_HOME="$PLUGIN_DIR/Kotlin/kotlinc"
   if [ ! -e "$KOTLIN_HOME" ]; then
     KOTLIN_HOME=$(ls -d /snap/intellij-idea-{community,ultimate}/current/plugins/Kotlin/kotlinc 2> /dev/null)
   fi

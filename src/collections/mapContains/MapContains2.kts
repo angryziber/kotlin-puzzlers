@@ -6,9 +6,9 @@ val friendsMap = Properties()
 friendsMap["John"] = "Jane"
 friendsMap["Jane"] = "Dave"
 
-"John" in friendsMap
-"Jane" in friendsMap
-"Dave" in friendsMap
+println("John" in friendsMap)
+println("Jane" in friendsMap)
+println("Dave" in friendsMap)
 
 // What will the results be?
 // a) true true true
